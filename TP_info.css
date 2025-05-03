@@ -1,0 +1,50 @@
+body {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+#layout1, #layout2 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.row {
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+#info {
+    font-size: 25px;
+}
+
+[type=radio] {
+    width: 40px;
+    height: 40px;
+}
+
+#designers {
+    font-size: 40px;
+}
+
+#reserve {
+    text-align: center;
+}
+
+#reserveButton {
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+}

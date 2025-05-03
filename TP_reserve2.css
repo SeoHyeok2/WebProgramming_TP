@@ -1,0 +1,94 @@
+body {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+#date {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    table-layout: fixed;
+    width: 90%;
+}
+
+td {
+    font-size: 40px;
+    height: 50px;
+    vertical-align: top;
+}
+
+li {
+    list-style-type: none;
+}
+
+#endButton {
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+}
+
+#end {
+    text-align: right;
+    padding: 10px;
+}
+
+#popUp {
+    display: none;
+    width: 500px;
+    height: 120px;
+    margin: 100px;
+    border: 1px solid black;
+    background-color: rgb(128, 250, 128);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-370px, 0);
+}
+
+#close {
+    height: 10px;
+    display: inline;
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+}
+
+#box {
+    font-size: xx-large;
+}
+
+[type=radio] {
+    width: 40px;
+    height: 40px;
+}
+
+#designs {
+    font-size: 40px;
+    margin-left: 300px;
+}

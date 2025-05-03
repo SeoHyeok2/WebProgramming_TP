@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP미용실 로그인</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="TP_login.css">
+</head>
+<body>
+    <div>
+        <h1>WP미용실 충남대점</h1> <br><br>
+        <div>
+            <div id="idDiv">
+                아이디&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="ID">
+            </div> <br>
+            <div id="passwordDiv">
+                비밀번호&nbsp;<input type="password" id="PASSWORD">
+            </div> <br><br>
+            <div id="buttons">
+                <button id="loginButton">로그인</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="signupButton">회원가입</button>
+            </div> <br>
+        </div>
+    </div>
+
+    <form action="TP_login.php" method="post">
+        <div id="popUp">
+            <ul>
+                <li>
+                    <span>아이디</span>
+                    <br>
+                    <input type="text" class="input" name="idInput">
+                </li>
+                <li>
+                    <span>비밀번호 입력</span>
+                    <br>
+                    <input type="text" class="input" name="passwordInput">
+                </li>
+                <!-- <li>
+                    <span>비밀번호 확인</span>
+                    <br>
+                    <input type="password" class="input" name="passwordCheck">
+                </li> -->
+                <li>
+                    <span>이름</span>
+                    <br>
+                    <input type="text" class="input" name="nameInput">
+                </li>
+                <li>
+                    <span>연락처</span>
+                    <br>
+                    <input type="tel" class="input" name="telInput">
+                </li>
+                <li>
+                    <span>이메일</span>
+                    <br>
+                    <input type="email" class="input" name="emailInput">
+                </li> <br><br>
+                <li>
+                    <button type="submit" id="signupCompleteButton">회원가입</button>
+                    <button id="cancelButton">취소</button>  
+                </li>
+            </ul>
+        </div>
+    </form>
+
+    <script src="TP_login.js"></script>
+</body>
+</html>

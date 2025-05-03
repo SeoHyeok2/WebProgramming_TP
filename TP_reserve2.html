@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP미용실 예약2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="TP_reserve2.css">
+</head>
+<body onload="showBar()">  <!--페이지가 로드될때 -->
+    <div>
+        <h1>WP미용실 충남대점</h1> <br><br>
+        <div id="date">
+            <h2 id="designer"></h2>
+
+            <div>
+                <h2 id="day"></h2>
+                <table>
+                    <tr>
+                        <th>오전</th>
+                    </tr>
+                    <tr id="morningTime">
+                        <th>10:00</th>
+                        <th>10:30</th>
+                        <th>11:00</th>
+                        <th>11:30</th>
+                    </tr>
+                    <tr>
+                        <td id="10:00"><div></div></td>
+                        <td id="10:30"></td>
+                        <td id="11:00"></td>
+                        <td id="11:30"></td>
+                    </tr>
+                    <tr>
+                        <th>오후</th>
+                    </tr>
+                    <tr id="afternoonTime">
+                        <th>12:00</th>
+                        <th>12:30</th>
+                        <th>1:00</th>
+                        <th>1:30</th>
+                        <th>2:00</th>
+                        <th>2:30</th>
+                    </tr>
+                    <tr>
+                        <td id="12:00"></td>
+                        <td id="12:30"></td>
+                        <td id="1:00"></td>
+                        <td id="1:30"></td>
+                        <td id="2:00"></td>
+                        <td id="2:30"></td>
+                    </tr>
+                    <tr>
+                        <th>3:00</th>
+                        <th>3:30</th>
+                        <th>4:00</th>
+                        <th>4:30</th>
+                        <th>5:00</th>
+                        <th>5:30</th>
+                    </tr>
+                    <tr>
+                        <td id="3:00"></td>
+                        <td id="3:30"></td>
+                        <td id="4:00"></td>
+                        <td id="4:30"></td>
+                        <td id="5:00"></td>
+                        <td id="5:30"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="designs">
+            </div>
+
+            <div id="end">
+                <button id="endButton">완료</button>
+            </div>
+        </div>
+
+        <div id="popUp">
+            <div id="close">X</div>
+            <div id="box">
+                <ul>
+                    <li id="1">일반펌</li>
+                    <li id="2">약 90분 소요</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="TP_reserve2.js"></script>
+</body>
+</html>
